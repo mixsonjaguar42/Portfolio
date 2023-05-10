@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        'img col'
+        'img col'
+    ;
+}
+
+.header-img {
+    grid-area: img;
+    height: 20rem;
+    width: 18rem;
+}
+
+.col {
+    grid-area: col;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.name-span {
+    font-size: xx-large;
+}
+
+.btn {
+
+}
