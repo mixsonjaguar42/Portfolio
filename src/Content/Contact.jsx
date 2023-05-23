@@ -9,6 +9,8 @@ export const Contact = (props) => {
     <h1 className=""><b>Contact.</b></h1>
     <hr style={{width:'50px',border:'5px solid red'}} className=""/>
     <p>Do you want us to style your home? Fill out the form and fill me in with the details. We love meeting new people!</p>
+    <p>Email: mixsonj2000@gmail.com Phone: (480)-818-7860
+    </p>
     <form action="/action_page.php" target="_blank">
       <div className="">
         <label>Name</label>
